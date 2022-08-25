@@ -1,0 +1,196 @@
+<!-- Page 1 -->
+  <section class="page1">
+    <h1 id="h1m">Hi</h1>
+    <h1 id="h1m">I'm Jordyn, </h1>
+    <h1 id="h1m">an up and coming web devloper</h1>
+    <p id="para1">take a tour of my portfolio website that utilises HTML, CSS & a little bit of JS</p>
+  </section>
+<!-- Page 2 -->
+  <section class="page2">
+    <div id="skillcontainer">  
+      <h1 id="h1s">Climbing Over The Mountains</h1>
+      <h3 id="heroheading">To Great Beautiful and Responsive Websites</h3>
+      <p id="herop">Check Out my skills</p>
+    </div>
+    <div id="findmore"><a href="">find out more</a></div>
+  </section>
+  <!-- page 3 -->
+  <main>
+    <h2>I'm a Zebra.</h2>
+    <article>
+        <img src="/images/africa.png" alt="">
+        <h3>My Home</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur aperiam eos nisi quam, quaerat possimus eius nam totam similique dolorem omnis dicta ad minus quia quo soluta atque vel illo!</p>
+        <a class="button btn-purple" href="">See my home</a>
+    </article>
+    <article>
+        <img src="/images/grass.jpg" alt="">
+        <h3>My Diet</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, deleniti itaque aliquid molestias odit magni eum debitis eveniet quod sequi nemo, impedit totam! Quo consequatur id quidem dolor enim ut.</p>
+        <a class="button btn-purple" href="">Grass Is Great</a>
+    </article>
+    <article>
+        <img src="/images/stripes.jpg" alt="">
+        <h3>Zebra Stripes</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis aspernatur obcaecati esse molestiae, fugit illo quod aperiam odit, amet, in illum ipsam rem culpa doloribus inventore nesciunt error libero non.</p>
+        <a class="button btn-purple" href="">Check out my stripes</a>
+    </article>
+</main>
+
+  <footer>
+    <h2>Quick Links</h2>
+      <a id="textlink" href="">My Skills</a>
+      <a id="textlink" href="">Contact</a>
+      <a id="textlink" href="">Blog</a>
+      <p>&copy;JanzenCode</p>
+  </footer>
+
+
+
+<img id="img" src="" alt="">
+
+
+  <!-- <script src="./fullpage.min.js"></script>
+  <script src="./app.js"></script> -->
+</body>
+</html>
+
+
+
+
+
+
+
+/* Page 1 */
+
+.page1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #1D201F;
+  padding: 15vw;
+
+}
+
+#h1m {
+  font-family: 'Silkscreen';
+  color: white;
+  font-size: 3rem;
+}
+
+#para1 {
+  font-size: 2rem;
+  font-family: 'Silkscreen';
+  color: white;
+  padding: 2rem 2rem;
+  transform: translate(-3.85rem);
+}
+
+/* Page 2 */
+.page2 {
+  padding: 25vw;
+  background: url(./img/daniel-sessler-vMSHCckJ9oE-unsplash.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+}
+
+#skillcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  justify-content: space-between;
+  text-align: left;
+}
+ 
+#h1s {
+  font-family: 'Silkscreen';
+  color: white;
+  font-size: 3rem;
+  padding-right: 1.5rem;
+}
+
+section h3 {
+  font-family: 'Silkscreen';
+  color: white;
+  font-size: 2.2rem;
+}
+
+#herop {
+  display: block;
+  font-family: 'Silkscreen';
+  color: white;
+  padding: 1rem 1rem;
+}
+
+section a {
+  flex-direction: column;
+  padding: 0.75rem, 1rem;
+  font-family: 'Silkscreen';
+  color: white;
+  background: rgba(255, 255, 255, 0.303);
+  text-decoration: none;
+  border: 2px solid white;
+  text-align: center;
+}
+/* Page 3 */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  justify-content: space-around;
+}
+
+main h2 {
+  font-family: 'Silkscreen';
+  font-weight: normal;
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
+main article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  padding: 0 2rem;
+}
+
+main h3 {
+  font-family: 'Bree Serif', sans-serif;
+  font-size: 1.05rem;
+  font-weight: normal;
+  color: #8980c2;
+  text-align: center;
+}
+main p {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 1rem 0;
+}
+
+main article img {
+ width: 100%;
+  border-radius: 50%;
+  border: 2px solid #8980c2;
+  margin: 1rem 0;
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Silkscreen';
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+}
+
+footer h2 {
+  padding-bottom: 0.5rem;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+footer p {
+  text-align: center;
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Silkscreen';
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page Wrapper */
+
+.entire-page-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 2560px;
+  width: 100%;
+  margin: 0 auto;
+  height: inherit;
+}
+
+/* Nav Container */
+
+/* nav a:hover,
+.account-links a:hover,
+.project-links-container a:hover,
+#contact-me:hover,
+.about-section-container a:hover,
+.logo:hover {
+  display: inline-block;
+  transform: scale(1.125);
+} */
+
+.JZN-container {
+  display: flex;
+  justify-content: center;
+}
+
+.brand {
+  width: clamp(7rem, 3.5vw + 2rem, 2rem);
+}
+
+.nav a {
+  font-size: rem;
+}
+
+.nav-header {
+  padding: 1rem 0.5rem;
+}
+
+.nav-header li {
+  flex: 1;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
