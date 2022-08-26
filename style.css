@@ -11,8 +11,6 @@
   }
 }
 
-
-
 * {
   box-sizing: border-box;
 }
@@ -22,6 +20,8 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
+  background: url(./img/joshua-sukoff--i2E4dK8jSo-unsplash.jpg) rgba(198, 190, 190, 0.331) no-repeat;
+  background-size: cover;
 }
 
 /* Page Wrapper */
@@ -29,35 +29,24 @@ body {
 .entire-page-container {
   display: flex;
   flex-direction: column;
-  max-width: 2560px;
+  max-width: 1920px;
   width: 100%;
   margin: 0 auto;
   height: inherit;
+  color: white;
+  justify-items: center;
 }
 
-/* Nav Container */
-
-/* nav a:hover,
-.account-links a:hover,
-.project-links-container a:hover,
-#contact-me:hover,
-.about-section-container a:hover,
-.logo:hover {
-  display: inline-block;
-  transform: scale(1.125);
-} */
+/* Header & Nav */
 
 .JZN-container {
   display: flex;
   justify-content: center;
+  
 }
 
 .brand {
-  width: clamp(7rem, 3.5vw + 2rem, 2rem);
-}
-
-.nav a {
-  font-size: rem;
+  width: clamp(6.5rem, 5vw, 4.5rem + 4.5rem);
 }
 
 .nav-header {
@@ -65,8 +54,12 @@ body {
 }
 
 .nav-header li {
+  display: flex;
+  flex-direction: column;
   flex: 1;
   text-align: center;
+  font-size: clamp(1rem, 2vh, 4rem);
+  color: white;
 }
 
 nav ul {
@@ -75,9 +68,92 @@ nav ul {
   text-decoration: none;
   margin: 0;
   padding: 0;
-  justify-content: space-between;
+  justify-content: 1rem;
+}
+/* Main Page */
+
+.info-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 2rem;
+  padding-bottom: 1rem;
 }
 
+.info-container h1 {
+  text-align: left;
+  font-size: clamp(1rem, 10vw, 3rem);
+  padding: 0;
+  margin: 0;
+}
+.info-container h2 {
+  font-size: clamp(1rem, 1vw, 1rem);
+}
+
+.main-info {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+/* Photo & Links */
+
+.photo-container {
+  margin: 0;
+  width: 0;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+#photo {
+  height: clamp(3.5rem, 150vw, 15.5rem);
+  justify-content: left;
+  margin: 0;
+  padding: 0;
+}
+
+.professional-links img {
+  height: 5.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem;
+  overflow: hidden;
+}
+
+.professional-links ul {
+  margin: 1rem;
+}
+
+.professional-links li {
+  display: inline-block;
+  padding: 1rem;
+  filter: invert();
+  list-style: none;
+
+}
+
+#linkedin {
+  border-radius: 50%;
+}
+
+
+footer {
+  text-align: center;
+  padding: 0.5rem;
+  color: white;
+  background: black;
+  max-width: 100%;
+  
+}
+
+/* Desktop Media  */
+
+@media screen and (min-width: 2559px) {
+}
 
 
 
