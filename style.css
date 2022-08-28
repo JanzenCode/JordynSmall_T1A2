@@ -125,6 +125,10 @@ body {
   height: 4.5vh;
 }
 
+.professional-links img:hover {
+  height: 5vh;
+}
+
 .professional-links ul {
   display: flex;
   display: row;
