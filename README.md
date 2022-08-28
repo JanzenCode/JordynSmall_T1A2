@@ -19,5 +19,5 @@ This website is created with semantic structure and easy to read, understanable 
 
 ## Sitemap
 
-![Sitemap](/images../docs/Sitemap.png)
+![Sitemap](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/Sitemap.png)
 
