@@ -349,6 +349,14 @@ height: clamp(10rem, 55vh, 75rem);
     align-items: center;
   }
 
+  #comic-sans {
+    font-family: "Comic Sans MS", "Comic Sans", cursive; ;
+  }
+
+  #comic {
+    height: 55vw;
+  }
+
 
 
 
