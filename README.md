@@ -51,3 +51,9 @@ This website is created with semantic structure and easy to read, understanable 
 ![contact](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/contact-phone.png)
 ![contact](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/contact-tablet.png)
 ![contact](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/contact-desktop.png)
+
+## Tech Stack
+
+- Figma: Wireframes and Sitemap
+- Website created using HTML5 and CSS
+- Deployment: Github and Netlify
