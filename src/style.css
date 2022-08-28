@@ -54,13 +54,15 @@ body {
   justify-content: center;
   align-items: center;
 }
+.nav-header nav {
+  padding: 1rem;
+}
 
 .nav-header ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
-  padding: 0 1rem;
 }
 .nav-header a {
   color: white;
@@ -69,9 +71,6 @@ body {
   max-width: 1920px;
 }
 
-.nav-header a:hover {
-  
-}
 /* Main Page */
 
 .index-page {
@@ -104,16 +103,7 @@ body {
   flex-direction: row;
 }
 
-.spacer {
-  padding: 3.5rem, 3.5vh, 3.5rem;
-}
 /* Links */
-
-.photo-container {
-  margin: 0;
-  width: 0;
-}
-
 .main-info {
   display: flex;
   flex-direction: row;
@@ -124,6 +114,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  
 }
 
 .professional-links img {
@@ -133,16 +124,16 @@ body {
 .professional-links ul {
   display: flex;
   display: row;
-  justify-content: space-between;
   align-items: center;
-  
+  padding-right: 2.5rem;
 }
 
 .professional-links li {
   filter: invert();
   list-style: none;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
 }
+
 
 #linkedin {
   border-radius: 50%;
