@@ -2,8 +2,8 @@
 
 ## Useful Links
 
-! [Portfolio] (https://main--enchanting-frangipane-5bb72c.netlify.app/index.html)
-! [GitHub] (https://github.com/JanzenCode/JordynSmall_T1A2)
+(https://main--enchanting-frangipane-5bb72c.netlify.app/index.html)
+(https://github.com/JanzenCode/JordynSmall_T1A2)
 
 ## Purpose and Target Audience
 
