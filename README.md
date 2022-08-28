@@ -26,23 +26,28 @@ This website is created with semantic structure and easy to read, understanable 
 
 ### Index/Landing Page
 
+![index](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/index.png)
 ![index](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/index-phone.png)
 ![index](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/index-tablet.png)
 ![index](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/index-desktop.png)
 
-### About
+### About Page
 
+![about](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/about.png)
 ![about](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/about-phone.png)
 ![about](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/about-tablet.png)
 ![about](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/about-desktop.png)
-### Blog/s
 
-![blog]()
-![blog]()
-![blog]()
+### Blog/s Page
 
-### Contact
+![blog](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/blog.png)
+![blog](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/blog-phone.png)
+![blog](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/blog-tablet.png)
+![blog](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/blog-desktop.png)
 
-![contact]()
-![contact]()
-![contact]()
+### Contact Page
+
+![contact](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/contact.png)
+![contact](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/contact-phone.png)
+![contact](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/contact-tablet.png)
+![contact](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/contact-desktop.png)
