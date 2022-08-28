@@ -20,7 +20,7 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background: url(./img/joshua-sukoff--i2E4dK8jSo-unsplash.jpg) rgba(198, 190, 190, 0.331) no-repeat;
+  background: url(/img/joshua-sukoff--i2E4dK8jSo-unsplash.jpg) rgba(198, 190, 190, 0.331) no-repeat;
   background-size: cover;
 }
 
@@ -68,7 +68,6 @@ body {
   font-size: clamp(1.2rem, 4vw + 0.5rem, 3rem);
   max-width: 1920px;
 }
-
 /* Main Page */
 
 .index-page {
@@ -80,6 +79,7 @@ body {
   flex-direction: column;
   padding: 2rem;
   color: white;
+  animation: slide-left 3s;
 }
 
 .info-container h1 {
@@ -103,7 +103,7 @@ body {
 .spacer {
   padding: 3.5rem, 3.5vh, 3.5rem;
 }
-/* Photo & Links */
+/* Links */
 
 .photo-container {
   margin: 0;
@@ -117,10 +117,9 @@ body {
 
 .professional-links {
   display: flex;
-  flex: 2;
-  order: 2;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 .professional-links img {
@@ -138,7 +137,7 @@ body {
 .professional-links li {
   filter: invert();
   list-style: none;
-  padding: 1.5rem;
+  padding: 0 1.5rem;
 }
 
 #linkedin {
@@ -196,8 +195,162 @@ height: clamp(10rem, 55vh, 75rem);
   background: rgba(255, 255, 255, 0.3);
   border: 1px solid white;
   width: fit-content;
-
 }
+
+
+/* Main Blog Page */
+
+.mainblog {
+  padding: 1rem;
+  overflow: auto;
+}
+
+.blog-container {
+  background: rgba(255, 255, 255, 0.358);
+  margin: 1rem;
+  height: 22.5vh;
+  max-width: 100%;
+  color: white;
+  overflow: auto;
+}
+
+#blog-title {
+  color: white;
+  text-align: center;
+}
+
+.blog-container h2 {
+  font-size: 1.5rem;
+  padding-left: 0.25rem;
+  text-decoration: underline;
+}
+
+.blog-container p {
+  padding-left: 0.25rem;
+}
+
+.blog-container a {
+  color: white;
+  font-size: 1.15rem;
+  border: 1px solid white;
+  text-decoration: none;
+}
+
+/* Blog Tablet */
+
+@media screen and (min-width: 767px), (max-width: 1024px) {
+  #blog-title {
+    font-size: 4.5rem;
+  }
+  .blog-container h2 {
+    font-size: 2rem;
+  }
+  .blog-container p {
+    font-size: 1.75rem;
+  }
+  .blog-container a {
+    font-size: 1.75rem;
+  }
+  }
+
+/* Phone Display */
+
+@media screen and (min-width: 769px), (max-width: 1440px) {
+  #blog-title {
+    font-size: 2.5rem;
+  }
+  .blog-container h2 {
+    font-size: 1.5rem;
+  }
+  .blog-container p {
+    font-size: 1rem;
+  }
+  .blog-container a {
+    font-size: 1rem;
+  }
+  }
+
+  /* Blog Desktop */
+
+  @media screen and (min-width: 1441px) {
+    #blog-title {
+      font-size: 6.5rem;
+    }
+    .blog-container h2 {
+      font-size: 4.5rem;
+    }
+    .blog-container p {
+      font-size: 2.75rem;
+    }
+    .blog-container a {
+      font-size: 2.75rem;
+    }
+    }
+
+
+
+  /* Contact Page */
+
+  .contact-container {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    color: white;
+    padding: 1rem;
+    overflow: auto;
+    max-width: 100%;
+  }
+
+  .contact-container h1 {
+    text-align: center;
+  }
+
+  .contact-container h2 {
+    padding: 0 0.575em;
+  }
+
+  .contact-container h3 {
+    padding: 0 0.575rem;
+  }
+  .contact-container ul {
+    padding: 1.75rem;
+  }
+  .contact-container li {
+    list-style: none;
+  }
+
+  /* Indivdual Blog Template CSS */
+
+  @media screen and (min-width: 769px), (max-width: 1440px) {
+    #nav-links {
+      gap: 0.5rem;
+      margin: 0;
+      padding: 0;
+    }
+    }
+  main {
+      flex: 1;
+    }
+
+  .blog-layout {
+    color: white;
+    padding: 1rem;
+    overflow: auto;
+  }
+
+  .blog-layout h1 {
+    text-decoration: underline;
+  }
+
+  .blog-layout img {
+    height: 35vh;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
 
 
 
