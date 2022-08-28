@@ -49,7 +49,7 @@ This website is created with semantic structure and easy to read, understanable 
 
 ### Contact Page
 
-![contact](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/contact.png)
+![contact](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/connect.png)
 ![contact](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/contact-phone.png)
 ![contact](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/contact-tablet.png)
 ![contact](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/contact-desktop.png)
