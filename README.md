@@ -6,6 +6,8 @@
 
 ### [GitHub Repo](https://github.com/JanzenCode/JordynSmall_T1A2)
 
+### [Slide-deck](https://youtu.be/xVkA4unryz4)
+
 ## Purpose and Target Audience
 
 This website displays information about me, my previous work and my potential capabilities designed to showcase my current and future ability to friends, family, fellow peers and prospective employers. 
@@ -51,6 +53,11 @@ This website is created with semantic structure and easy to read, understanable 
 ![contact](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/contact-phone.png)
 ![contact](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/contact-tablet.png)
 ![contact](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/contact-desktop.png)
+
+## Target Audience
+
+All users are welcome to visit and interact with the multiple pages of the portfolio.
+This website is also focused on users who have web-development tools and knowledge of HTML & CSS, so that they can experience the internal structure and styling. 
 
 ## Tech Stack
 
