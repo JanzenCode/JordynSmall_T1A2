@@ -17,7 +17,7 @@ This website is created with semantic structure and easy to read, understanable 
 - Blog/s: A landing page that provides a summary for five active blogs, pressing the read more expands into their indivdual pages. 
 - Contact: General information about how to reach me with attached social media links 
 
-##Sitemap
+## Sitemap
 
-! [Sitemap](/docs/Sitemap.png)
+![Sitemap](/images../docs/Sitemap.png)
 
