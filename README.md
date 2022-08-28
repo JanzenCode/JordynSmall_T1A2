@@ -22,3 +22,27 @@ This website is created with semantic structure and easy to read, understanable 
 
 ![Sitemap](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/Sitemap.png)
 
+## Wireframes & Screenshots
+
+### Index/Landing Page
+
+![index](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/index-phone.png)
+![index](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/index-tablet.png)
+![index](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/index-desktop.png)
+
+### About
+
+![about](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/about-phone.png)
+![about](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/about-tablet.png)
+![about](https://github.com/JanzenCode/JordynSmall_T1A2/blob/main/docs/about-desktop.png)
+### Blog/s
+
+![blog]()
+![blog]()
+![blog]()
+
+### Contact
+
+![contact]()
+![contact]()
+![contact]()
